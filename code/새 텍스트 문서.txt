@@ -1,0 +1,6 @@
+def count_beeper(a):
+    while next_to_a_beeper():
+        pick_beeper()
+        a = a+1
+    repeat(put_beeper, a)
+    return a
